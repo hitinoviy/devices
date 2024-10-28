@@ -1,0 +1,63 @@
+.error {
+  text-align: center;
+  margin: 10px;
+  color: red;
+}
+.devices {
+  background: #244a57;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.devices__title {
+  color: #dde7dc;
+  font-size: 30px;
+  text-align: center;
+}
+.devices__title-change {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #dde7dc;
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 2px #dde7dc solid;
+}
+.devices__list {
+  color: #dde7dc;
+  list-style: none;
+}
+
+.devices__item {
+  background: #89b9c5;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.devices__item-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #dde7dc;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px #dde7dc solid;
+}
+.devices__item-btn {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #dde7dc;
+  color: #417d95;
+  transition: 0.3s background, 0.3s color;
+}
+.devices__item-btn:hover {
+  background: #ccd1cc;
+  color: #2a505f;
+}
+.devices__wrapper {
+  padding: 10px;
+}
